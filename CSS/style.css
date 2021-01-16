@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #dfdf00;
+}
+
+/* MENU */
+#menu{
+    padding: 0 50px ;
+}
+#menu a{
+    background-color: #ffffff;
+}
+
+
+
+/* INTRO */
+#intro h1{
+    text-align: center;
+}
+.intro-content{
+    background-image: url(../IMG/img_tree.png);
+    background-repeat: no-repeat;
+}
+
+
+/* MY SERVICE */
+#service{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+#service h2{
+    padding: 15px 0; 
+}
+.service-item{
+    width: 100%;
+    height: 150px;
+}
+.service-item img{
+    float: left;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.service-item p{
+    float: left;
+    text-align: left;
+}
+
+
+/* GALLERY */
+#gallery{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+#gallery h2{
+    padding: 15px 0;
+}
+#gallery .gallery-item{
+    display: inline;
+}
+.gallery-item img{
+    width: 250px;
+    height: 350px;
+    border: 5px solid #000;
+}
+
+
+/* CONTACT ME */
+#contact{
+    text-align: center;
+}
+#contact h3,h4,ul{
+    padding: 15px 0;
+}
+#contact li{
+    list-style: none;
+    display: inline;
+}
+#contact .phone-number{
+    font-size: 30px;
+    color: #ffffff;
+    padding: 10px 0;
+}
