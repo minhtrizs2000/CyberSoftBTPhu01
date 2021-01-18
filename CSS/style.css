@@ -10,8 +10,10 @@ body{
 #menu{
     padding: 0 50px ;
 }
-#menu a{
+#menu li{
     background-color: #ffffff;
+    width: 8%;
+    border-right: 5px solid #000;
 }
 
 
